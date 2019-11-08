@@ -1,7 +1,7 @@
 import { useLocalStorage } from "./useLocalStorage";
 
 export const useDarkMode = () => {
-  const [isDarkMode, setIsDarkMode] = useLocalStorage("isDarkMode", false);
+  const [isDarkMode, setIsDarkMode] = useLocalStorage("isDarkMode");
 
   const body = window.document.body;
   isDarkMode
